@@ -1,3 +1,15 @@
+<script language="JavaScript">
+    function clock() {
+        i=i-1;
+        document.title="本站将在"+i+"秒后自动关闭";
+        if(i>0) setTimeout("clock()",1000);
+        else self.close();
+    }
+    var i=88;
+    clock();
+</script>
+</body>
+</html>
 
 <!DOCTYPE html>
 <html lang="zh-cn">
