@@ -31,7 +31,7 @@ function closeit()
 
 {
 
-setTimeout("self.close()", 10000);
+setTimeout("self.close()", 9000);
 
 }
 
@@ -146,10 +146,10 @@ closeit();
     function clock() {
         i=i-1;
         document.title="本站将在"+i+"秒后自动关闭";
-        if(i>0) setTimeout("clock()",1000);
+        if(i>0) setTimeout("clock()",9000);
         else self.close();
     }
-    var i=10;
+    var i=9;
     clock();
 </script>
 </body>
